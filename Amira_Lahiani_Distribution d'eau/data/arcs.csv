@@ -1,0 +1,7 @@
+u,v,capacity,min_flow,cost_low,cost_high,threshold,loss_rate
+Barge,Ariana,60,0,1,2,40,0.05
+Barge,TunisVille,60,0,1,2,40,0.05
+Ariana,TunisVille,40,0,1,2,25,0.05
+Ariana,Manouba,40,0,1,2,25,0.05
+TunisVille,BenArous,40,0,1,2,25,0.05
+Manouba,BenArous,40,0,1,2,25,0.05
