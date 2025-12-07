@@ -5,13 +5,12 @@ from PyQt5.QtWidgets import (
     QLabel, QPushButton, QMessageBox
 )
 from PyQt5.QtCore import Qt
-import sys, os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from projet_ro.gui.network_editor import NetworkEditor
-from projet_ro.gui.results_window import ResultsWindow
-from projet_ro.models.network_utils import NetworkData
-from projet_ro.models.optimizer_mcflow import solve_min_cost_flow
+
+from gui.network_editor import NetworkEditor
+from gui.results_window import ResultsWindow
+from models.network_utils import NetworkData
+from models.optimizer_mcflow import solve_min_cost_flow
 
 
 class MainWindow(QMainWindow):

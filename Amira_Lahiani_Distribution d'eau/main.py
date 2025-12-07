@@ -1,8 +1,7 @@
-import sys, os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import sys
 from PyQt5.QtWidgets import QApplication
-from projet_ro.gui.main_window import MainWindow
+from gui.main_window import MainWindow
 
 def main():
     """

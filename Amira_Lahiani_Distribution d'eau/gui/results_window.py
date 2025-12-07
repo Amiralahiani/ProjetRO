@@ -1,8 +1,7 @@
 # ================================================================
 # gui/results_window.py  —  VERSION OPTIMISÉE AVEC SEUILS & LÉGENDE
 # ================================================================
-import sys, os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QPushButton,
     QFrame, QSizePolicy, QScrollArea

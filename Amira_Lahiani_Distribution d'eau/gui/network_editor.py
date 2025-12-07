@@ -1,6 +1,5 @@
 # gui/network_editor.py
-import sys, os
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import csv
 from PyQt5.QtWidgets import (
     QWidget, QVBoxLayout, QLabel, QTableWidget, QTableWidgetItem,
