@@ -3,9 +3,13 @@ import os
 
 class DataLoader:
     def __init__(self, data_dir="Data"):
-        self.data_dir = data_dir
-        self.banks_file = os.path.join(data_dir, "banks.csv")
-        self.rates_file = os.path.join(data_dir, "rates.csv")
+        base_dir = os.path.dirname(os.path.abspath(__file__))  
+
+        # 📌 On remonte au dossier Data puis Data2
+        self.data_dir = os.path.join(base_dir, "..", "Data")  # -> .../Data/Data
+
+        self.banks_file = os.path.join(self.data_dir, "Banks.csv")
+        self.rates_file = os.path.join(self.data_dir, "Rates.csv")
 
     def load_banks_data(self):
         df = pd.read_csv(self.banks_file)

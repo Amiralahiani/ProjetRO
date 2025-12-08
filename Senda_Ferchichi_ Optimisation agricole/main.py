@@ -2,7 +2,6 @@
 """
 Point d'entrée principal de l'application d'optimisation agricole
 """
-
 import sys
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtGui import QFont

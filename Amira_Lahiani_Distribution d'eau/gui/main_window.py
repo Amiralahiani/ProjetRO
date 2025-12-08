@@ -1,4 +1,6 @@
 # gui/main_window.py
+import sys, os
+sys.path.append(os.path.dirname(__file__))
 
 from PyQt5.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout,

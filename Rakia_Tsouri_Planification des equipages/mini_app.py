@@ -33,7 +33,7 @@ def run_crew_optimizer(flights, pairings, cost):
 class CrewApp(QtWidgets.QDialog):
     def __init__(self):
         super().__init__()
-        uic.loadUi("crew_app.ui", self)
+        uic.loadUi("Rakia_Tsouri_Planification des equipages\\crew_app.ui", self)
 
         # Rendre resultTable non éditable
         self.resultTable.setEditTriggers(QtWidgets.QTableWidget.NoEditTriggers)

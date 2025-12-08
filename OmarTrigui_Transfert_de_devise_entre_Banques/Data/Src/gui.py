@@ -1,4 +1,6 @@
 import tkinter as tk
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from tkinter import ttk
 from Src.DataLoader import DataLoader
 from Src.Optimizer import optimize_transfers
